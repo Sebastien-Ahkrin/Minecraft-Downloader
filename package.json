@@ -1,0 +1,34 @@
+{
+  "name": "minecraft-downloader",
+  "version": "1.0.0",
+  "description": "A minecraft tool to help creating a launcher",
+  "main": "src/",
+  "scripts": {
+    "start": "babel-node example/index.js",
+    "test": "mocha --no-deprecation --compilers js:@babel/register ./__test__/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebastien-Ahkrin/Minecraft-Downloader.git"
+  },
+  "keywords": [
+    "minecraft"
+  ],
+  "author": "Sebastien-Ahkrin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sebastien-Ahkrin/Minecraft-Downloader/issues"
+  },
+  "homepage": "https://github.com/Sebastien-Ahkrin/Minecraft-Downloader#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/node": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
+    "@babel/register": "^7.0.0-beta.47",
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2"
+  }
+}
