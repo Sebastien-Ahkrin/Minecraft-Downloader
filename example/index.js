@@ -1,3 +1,4 @@
 import { Download  } from './../src'
 
-const download = new Download({ server: 'localhost', port: 80, https: false })
+// You can : new Download({ server: 'localhost', port: 80, https: false })
+const download = new Download{ server: 'localhost', port: 80, https: false })
